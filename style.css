@@ -1,0 +1,143 @@
+body {
+    background-color: #212121;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+button {
+    font-size: 30px;
+    font-weight: bold;
+    width: 300px;
+    height: 65px;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #bdbdbd;
+}
+
+.container-index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.column {
+    float: left;
+}
+
+
+.statistic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    height: 15px;
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #212121;
+    border: none; 
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.div-img {
+    background-color: gray;
+    width: 224px;
+    height: 140px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 4px #000000 solid;
+    transform: rotateY(0deg);
+}
+
+.poland {
+    background-image: url("./assets/pl.png");
+    transition: all 0.5s ease 0s;
+    pointer-events: none;
+}
+
+.czech {
+    background-image: url("./assets/cz.png");
+    transition: all 0.5s ease 0s;
+    pointer-events: none;
+}
+
+.germany {
+    background-image: url("./assets/de.png");
+    transition: all 0.5s ease 0s;
+    pointer-events: none;
+}
+
+.ukraine {
+    background-image: url("./assets/ua.png");
+    transition: all 0.5s ease 0s;
+    pointer-events: none;
+}
+
+.russia {
+    background-image: url("./assets/ru.png");
+    transition: all 0.5s ease 0s;
+    pointer-events: none;
+}
+
+.lithuania {
+    background-image: url("./assets/lt.png");
+    transition: all 0.5s ease 0s;
+    pointer-events: none;
+}
+
+.slovakia {
+    background-image: url("./assets/sk.png");
+    transition: all 0.5s ease 0s;
+    pointer-events: none;
+}
+
+.belarus {
+    background-image: url("./assets/by.png");
+    transition: all 0.5s ease 0s;
+    pointer-events: none;
+}
+
+.france {
+    background-image: url("./assets/fr.png");
+    transition: all 0.5s ease 0s;
+    pointer-events: none;
+}
+
+.italy {
+    background-image: url("./assets/it.png");
+    transition: all 0.5s ease 0s;
+    pointer-events: none;
+}
+
+.hit {
+    opacity: 0.1;
+    pointer-events: none;
+}
+
+.wait {
+    pointer-events: none;
+}
